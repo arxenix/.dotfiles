@@ -7,3 +7,13 @@ set shiftwidth=4
 set expandtab
 " when backspace, delete 4 spaces if possible
 set softtabstop=4
+
+" use jkl; Down Up Left Right
+noremap l h
+noremap ; l
+noremap h ;
+" disable arrow keys (bad habit)
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
